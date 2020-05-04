@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900&display=swap');
+
+. {
+  font-family: Raleway;
+}
+
+.container-fluid {
+  padding-bottom: 12px;
+}
+
+body { 
+  padding-top: 90px; 
+  
+}
+
+.covid-message {
+  max-width: 580px;
+}
+
+.navbar ul{
+  margin:0;
+}
+
+.navbar a {
+  padding: 10px 10px;
+  display:inline-block;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.container-fluid{}
+
+button {
+  background-color: white;
+  border: 1px solid #ebebeb;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 20px;
+  padding: 8px 14px;
+  box-shadow: 0px 0px 2px #f5f5f5;
+  align-self: center;
+}
+
+button:hover {
+  box-shadow: 0px 0px 16px #f5f5f5;
+}
+
+
+.card-text {
+  font-size: small;
+}
+
+.card {
+  margin: 12px;
+  padding: 0px;
+  border-radius: 12px;
+}
+
+.card-img-top {
+  object-fit: cover;
+  width: 100%;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.section-header{
+  color: #f5f5f5;
+  padding-left: 16px;
+  padding-right: 24px;
+}
+
+.section2-title {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+.section2-title h2 {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.section2-title button{
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+}
+
+.section2-p {
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 440px;
+  padding-bottom: 16px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.col-lg {
+  flex: 2;
+}
+
+.col-sm{
+  flex: 1;
+  display: flexbox;
+}
+
+.col-sm .card {
+  flex: 1;
+}
+
+.card-img-top-small {
+  object-fit: cover;
+  max-height: 168px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
